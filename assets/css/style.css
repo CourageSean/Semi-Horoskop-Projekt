@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+}
+
+section {
+  height: 100vh;
+  background: url("../images/19975-NSCKQL.jpg");
+  background-size: cover;
+  background-color: rgb(123, 31, 139);
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+
+  background-position: center;
+  overflow: hidden;
+  display: grid;
+  place-items: center;
+}
+
+img {
+  /* display: none; */
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
+  padding-left: 25%;
+}
+
+#cancerWrapper {
+  width: 80%;
+  border: solid #f0e68c 7px;
+  border-radius: 20px;
+  margin: auto;
+  padding: 15px 0;
+  position: relative;
+}
+
+#date {
+  position: absolute;
+  color: #f0e68c;
+  top: 4px;
+  right: 2px;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+h3 {
+  color: #f0e68c;
+  align-self: flex-start;
+  text-align: center;
+  padding: 30px 0;
+}
+
+#txt {
+  width: 30%;
+  margin: auto;
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+}
+.para {
+  color: white;
+}
+p {
+  color: white;
+}
+
+h1 {
+  color: #f0e68c;
+  text-align: center;
+  font-family: "Dancing Script";
+  font-size: 2.7rem;
+  padding-bottom: 40px;
+}
+article {
+  width: 30%;
+}

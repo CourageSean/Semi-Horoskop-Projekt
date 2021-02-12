@@ -56,7 +56,7 @@ let aquariusImg = ` <div id="cancerWrapper" class="animate__animated animate__fl
 <p id="date"  class="animate__animated animate__fadeIn">20.02 - 18.02</p>
 </div> `;
 
-let aquariusTxt = `<h1 class='animate__animated animate__fadeInLeft' >Aquarius</h1>
+let aquariusTxt = `<h1 class='animate__animated animate__fadeInLeft' >AQUARIUS</h1>
 <p  class='para animate__animated animate__fadeInRight'>
 You may feel a bit lonely today, Aquarius, even if there are people all around you. It may seem like everyone's on a different plane. </p>  `;
 
@@ -158,7 +158,7 @@ let scorpioImg = ` <div id="cancerWrapper" class="animate__animated animate__fli
 <p id="date"  class="animate__animated animate__fadeIn">23.10 - 21.11</p>
 </div> `;
 
-let sagittariusTxt = `<h1 class='animate__animated animate__fadeInLeft' >SCORPIO</h1>
+let sagittariusTxt = `<h1 class='animate__animated animate__fadeInLeft' >SAGITTARIUS</h1>
 <p  class='para animate__animated animate__fadeInRight'>
 You may be shaken to the core today by someone of great personal magnetism, Sagittarius.  </p>  `;
 

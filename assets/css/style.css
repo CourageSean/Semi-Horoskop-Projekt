@@ -133,3 +133,12 @@ article {
 #month:focus {
   outline: #f0e68c solid 3px;
 }
+
+#required {
+  color: white;
+  text-align: center;
+  font-family: "Roboto";
+  font-weight: 400;
+  padding-bottom: 40px;
+  font-size: 2rem;
+}

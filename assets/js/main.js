@@ -172,6 +172,8 @@ let sagittariusImg = ` <div id="cancerWrapper" class="animate__animated animate_
 <p id="date"  class="animate__animated animate__fadeIn">22.11 - 21.12</p>
 </div> `;
 
+let defaultTxt = `<h1 id="required">birth month required!</h1>`;
+
 function bello() {
   switch (month.value.toLowerCase()) {
     case "june":

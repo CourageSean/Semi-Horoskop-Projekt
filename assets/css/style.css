@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -46,7 +48,7 @@ img {
   top: 4px;
   right: 2px;
   -webkit-animation-duration: 2s;
-          animation-duration: 2s;
+  animation-duration: 2s;
 }
 h3 {
   color: #f0e68c;
@@ -62,12 +64,16 @@ h3 {
   animation-delay: 1s;
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
+
+  padding-bottom: 150px;
 }
 .para {
   color: white;
 }
 p {
+  font-family: "Roboto";
   color: white;
+  line-height: 25px;
 }
 
 h1 {
@@ -76,7 +82,54 @@ h1 {
   font-family: "Dancing Script";
   font-size: 2.7rem;
   padding-bottom: 40px;
+  font-size: 2rem;
 }
 article {
   width: 30%;
+}
+
+#headline {
+  position: absolute;
+  font-size: 3rem;
+  left: 20px;
+  top: 30%;
+}
+
+#h1s {
+  padding-left: 100px;
+}
+
+#description {
+  position: absolute;
+  color: #f0e68c;
+  font-family: "Roboto";
+  width: 20%;
+  right: 5%;
+  bottom: 5%;
+  font-size: 1rem;
+}
+#btn {
+  position: absolute;
+  bottom: 12%;
+  right: 31%;
+  width: 6%;
+  height: 8%;
+  border-radius: 100%;
+  color: rgb(165, 44, 196);
+  background-color: #f0e68c;
+  font-size: 1.3rem;
+  font-family: "Roboto";
+  font-style: italic;
+}
+
+#month {
+  width: 20%;
+  height: 20px;
+  position: absolute;
+  bottom: 15%;
+  right: 40%;
+}
+
+#month:focus {
+  outline: #f0e68c solid 3px;
 }

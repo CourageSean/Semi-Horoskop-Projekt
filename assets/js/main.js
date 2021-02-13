@@ -173,6 +173,15 @@ let sagittariusImg = ` <div id="cancerWrapper" class="animate__animated animate_
 </div> `;
 
 let defaultTxt = `<h1 id="required">birth month required!</h1>`;
+let defaultImg = ` <div id="cancerWrapper" >
+<img
+  id="cancer"
+  "
+  src="assets/images/junge-der-hand-fur-frage-erhebt.png"
+  alt=""
+/>
+
+</div> `;
 
 function bello() {
   switch (month.value.toLowerCase()) {
@@ -263,5 +272,6 @@ function bello() {
 
     default:
       txt.innerHTML = defaultTxt;
+      art.innerHTML = defaultImg;
   }
 }

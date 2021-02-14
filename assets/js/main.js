@@ -275,3 +275,8 @@ function bello() {
       art.innerHTML = defaultImg;
   }
 }
+month.addEventListener("keyup", function (event) {
+  if (event.keyCode === 13) {
+    bello();
+  }
+});
